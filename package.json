@@ -2,12 +2,14 @@
   "name": "simple-persian-utils",
   "version": "1.0.0",
   "description": "a npm package for persian people",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": ["./dist","./src"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mohsen Shabanian",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.0.4"
