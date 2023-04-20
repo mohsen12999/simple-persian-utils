@@ -7,5 +7,5 @@ export const normalizeAccountNumber = (account:string): number => {
     // remove other character
     const numberNumber = onlyEnglishNumber.replace(/\D/g,"")
 
-    return Number.parseInt(numberNumber);
+    return Number(numberNumber);
 }
