@@ -4,14 +4,20 @@
   "description": "a npm package for persian people",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "files": ["./dist","./src"],
+  "files": [
+    "./dist",
+    "./src"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Mohsen Shabanian",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
     "typescript": "^5.0.4"
   }
 }
